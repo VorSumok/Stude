@@ -1,0 +1,10 @@
+^C:\USERS\ACER\DESKTOP\OSNOVI_PROGRAMIROVANI\MYSTUDE\PRACTICA_9\CMAKEFILES\5B97AE48876DE01B99FB738E9B6C376A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/acer/Desktop/osnovi_programirovani/MyStude/sfml_sample-main -BC:/Users/acer/Desktop/osnovi_programirovani/MyStude/Practica_9 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/acer/Desktop/osnovi_programirovani/MyStude/Practica_9/sfml_sample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

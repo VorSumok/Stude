@@ -1,0 +1,3 @@
+C:/Users/acer/Desktop/osnovi_programirovani/MyStude/Practica_9/CMakeFiles/sfml_sample.dir
+C:/Users/acer/Desktop/osnovi_programirovani/MyStude/Practica_9/CMakeFiles/ALL_BUILD.dir
+C:/Users/acer/Desktop/osnovi_programirovani/MyStude/Practica_9/CMakeFiles/ZERO_CHECK.dir
